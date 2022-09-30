@@ -15,7 +15,7 @@ export default function Header() {
     <BorderBottom>
       <AppBar sx={{bgcolor: 'transparent', position: 'absolute'}} elevation={0} >
         <Toolbar sx={{ display: "flex", justifyContent: "space-between", alignItem: "center"}}>
-          <Image src="/logo.png" width="120" height="120" />
+          <Image src="/logo.png" width="120" height="120" alt="logo-header" />
           <Button variant="contained" color="acent">Login</Button>
         </Toolbar>
       </AppBar>

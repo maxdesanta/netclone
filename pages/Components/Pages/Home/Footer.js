@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <Box sx={{ bgcolor: "black", color: "white", px:3, display:"flex", justifyContent:"space-between"  }}>
         <Box sx={{display: "flex", columnGap: 3, alignItems: "center"}}>
-          <Image src="/logo.png" width="80" height="80" />
+          <Image src="/logo.png" alt="logo-footer" width="80" height="80" />
           <Typography variant="h5" component="a" href="#">
             Privacy
           </Typography>
