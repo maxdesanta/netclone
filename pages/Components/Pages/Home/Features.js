@@ -1,9 +1,9 @@
 import React from "react";
+import Image from "next/image";
 import BorderBottom from "../../Wrapper/BorderBottom";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import Image from "next/image";
 
 const Judul = ({ text }) => (
   <Typography variant="h3" sx={{ pb: 1.3 }}>

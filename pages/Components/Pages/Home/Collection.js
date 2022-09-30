@@ -1,8 +1,8 @@
 import React from "react";
+import Image from "next/image";
 import BorderBottom from "../../Wrapper/BorderBottom";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import Image from "next/image";
 import Button from "@mui/material/Button";
 
 const Card = ({ text, gambar, altCaption }) => (

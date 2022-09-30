@@ -8,7 +8,6 @@ import Button from "@mui/material/Button";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import BorderBottom from "../../Wrapper/BorderBottom";
-import GamesIcon from '@mui/icons-material/Games';
 
 export default function Header() {
   return (
