@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { ThemeProvider } from "@mui/material/styles";
 // import { CssBaseline } from '@mui/material/CssBaseline';
-import colors from "./Components/Colors/Colors";
+import colors from "../Colors/Colors";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
